@@ -18,7 +18,7 @@
                 <strong>Name:</strong> Zongyun CHEN (Marina)
             </li>
             <li>
-                <strong>Email:</strong> <a href="mailto:marinachenzongyun@gmail.com">marinachenzongyun@gmail.com</a>
+                <strong>Email:</strong> <a href="mailto:marinachenzongyun@gmaile.com">marinachenzongyun@gmaile.com</a>
             </li>
             <li>
                 <strong>ResearchGate:</strong> <a href="https://www.researchgate.net/profile/Zongyun-Chen-3" target="_blank">https://www.researchgate.net/profile/Zongyun-Chen-3</a>
@@ -92,8 +92,80 @@
         </ul>
     </section>
 
+    <section id="marina-math-class">
+        <h2 style="color: green;">Marina Math Class</h2>
+        <ul>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('number-theory')">Number Theory</span>
+                <ul id="number-theory" class="sub-content" style="display: none;">
+                    <li><a href="https://www.youtube.com/watch?v=1rZSsV6clWo&list=PL6ekAdUm8WQJho24qSUB-UpDZG4367PbO&index=4" target="_blank">The Open/Close Locker Problem</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Cx9OniUuIfk&list=PL6ekAdUm8WQJho24qSUB-UpDZG4367PbO&index=3" target="_blank">Goldbach Conjecture</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=di3531D7xEY&list=PL6ekAdUm8WQJho24qSUB-UpDZG4367PbO&index=2" target="_blank">Fraction and Repeating Decimal</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=jVZDs0ZIMNs&list=PL6ekAdUm8WQJho24qSUB-UpDZG4367PbO" target="_blank">Number of Squares Passed through by a Diagonal of a Rectangle</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('statistics-probability')">Statistics & Probability</span>
+                <ul id="statistics-probability" class="sub-content" style="display: none;">
+                    <li><a href="https://www.youtube.com/watch?v=MTjYhceOOCM&list=PL6ekAdUm8WQKQ2G-XOVId77XmOdtCvu7X&index=3" target="_blank">Blocks with Two Common Properties (Method 1)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=0Itc6XKIZQk&list=PL6ekAdUm8WQKQ2G-XOVId77XmOdtCvu7X&index=2" target="_blank">Blocks with Two Common Properties (Method 2)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=p91UQ61SMes&list=PL6ekAdUm8WQKQ2G-XOVId77XmOdtCvu7X" target="_blank">Two Adjacent Seats for a Couple</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('sequences-series')">Sequences & Series</span>
+                <ul id="sequences-series" class="sub-content" style="display: none;">
+                    <li><a href="https://www.youtube.com/watch?v=xotdvJcaZfs&list=PL6ekAdUm8WQLZTlohgzXxnBOs2Zrr9xZY" target="_blank">Geometric Series – The Weight & Balance Scale Problem</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('geometry')">Geometry</span>
+                <ul id="geometry" class="sub-content" style="display: none;">
+                    <li><a href="https://www.youtube.com/watch?v=vOVqs7gQTAw&list=PL6ekAdUm8WQLX64PMoLXgrTHKyLbZ7b4c" target="_blank">2-D Geometry – Problem 1 – Trigonometry</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('group-theory')">Group Theory</span>
+                <ul id="group-theory" class="sub-content" style="display: none;">
+                    <li><a href="https://www.youtube.com/watch?v=dsnZbsO3C54&list=PL6ekAdUm8WQLKBMYkQ4K3B-A3_hZykT7s" target="_blank">Peg Solitaire</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('topology')">Topology</span>
+                <ul id="topology" class="sub-content" style="display: none;">
+                    <li><a href="https://www.youtube.com/watch?v=fCxO75NnK4o&list=PL6ekAdUm8WQKuby6hwyOt_KqFfu6xzld3" target="_blank">Knot Theory (Ochiai)</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('calculus')">Calculus</span>
+                <ul id="calculus" class="sub-content" style="display: none;">
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=oM3pcGo0dyM&list=PL6ekAdUm8WQLlSnJ-T2-Q85ez0kjy71U2" target="_blank">
+                            Evaluate 
+                            <span class="mathjax-integral">\(\int_0^3 (x^3 - 6x) \, dx\)</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            
+            <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+            <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        </ul>
+    </section>
+    
+    <script>
+        function toggleContent(id) {
+            const content = document.getElementById(id);
+            if (content.style.display === "none") {
+                content.style.display = "block"; // Show the sub-content
+            } else {
+                content.style.display = "none"; // Hide the sub-content
+            }
+        }
+    </script>
+
     <footer>
-        <p>&copy; 2025 Zongyun CHEN (Marina)</p>
+        <p>&copy; 2024 Zongyun CHEN (Marina)</p>
     </footer>
 </body>
 </html>
