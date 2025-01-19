@@ -92,6 +92,27 @@
         </ul>
     </section>
 
+    <style>
+        .toggle-button {
+            color: blue;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    
+        .toggle-button:hover {
+            color: darkblue;
+        }
+    
+        .sub-content li a {
+            color: blue;
+            text-decoration: underline;
+        }
+    
+        .sub-content li a:hover {
+            color: darkblue;
+        }
+    </style>
+    
     <section id="marina-math-class">
         <h2 style="color: green;">Marina Math Class</h2>
         <ul>
@@ -147,9 +168,31 @@
                     </li>
                 </ul>
             </li>
-            
-            <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-            <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        </ul>
+    </section>
+    
+    <section id="surfskate-videos">
+        <h2 style="color: green;">Surfskate Videos</h2>
+        <ul>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('surfskate-tricks')">Bowl Riding</span>
+                <ul id="surfskate-tricks" class="sub-content" style="display: none;">
+                    <li>09-07-2024 <a href="https://www.youtube.com/shorts/gU3L_Q6XJ9Q" target="_blank">Watch Video</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('snap')">Snap</span>
+                <ul id="snap" class="sub-content" style="display: none;">
+                    <li>12-20-2023 <a href="https://www.youtube.com/shorts/e636da_miNM" target="_blank">Watch Video</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="toggle-button" onclick="toggleContent('reverse-360')">Reverse 360</span>
+                <ul id="reverse-360" class="sub-content" style="display: none;">
+                    <li>12-02-2024 <a href="https://www.youtube.com/watch?v=gAFhCvAm834" target="_blank">Watch Video</a></li>
+                    <li>12-30-2024 <a href="https://www.youtube.com/shorts/mOG6ifu2T9g" target="_blank">Watch Video</a></li>
+                </ul>
+            </li>
         </ul>
     </section>
     
@@ -163,32 +206,10 @@
             }
         }
     </script>
-
-<section id="surfskate-videos">
-    <h2 style="color: green;">Surfskate Videos</h2>
-    <ul>
-        <li>
-            <span class="toggle-button" onclick="toggleContent('surfskate-tricks')">Bowl Riding</span>
-            <ul id="surfskate-tricks" class="sub-content" style="display: none;">
-                <li>09-07-2024 <a href="https://www.youtube.com/shorts/gU3L_Q6XJ9Q" target="_blank">Watch Video</a></li>
-            </ul>
-        </li>
-        <li>
-            <span class="toggle-button" onclick="toggleContent('snap')">Snap</span>
-            <ul id="snap" class="sub-content" style="display: none;">
-                <li>12-20-2023 <a href="https://www.youtube.com/shorts/e636da_miNM" target="_blank">Watch Video</a></li>
-            </ul>
-        </li>
-        <li>
-            <span class="toggle-button" onclick="toggleContent('reverse-360')">Reverse 360</span>
-            <ul id="reverse-360" class="sub-content" style="display: none;">
-                <li>12-02-2024 <a href="https://www.youtube.com/watch?v=gAFhCvAm834" target="_blank">Watch Video</a></li>
-                <li>12-30-2024 <a href="https://www.youtube.com/shorts/mOG6ifu2T9g" target="_blank">Watch Video</a></li>
-            </ul>
-        </li>
-    </ul>
-</section>
     
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
     <footer>
         <p>&copy; 2024 Zongyun CHEN (Marina)</p>
     </footer>
